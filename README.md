@@ -28,7 +28,7 @@ Develop a system that automatically manages the lifecycle of a web application h
 - Gain a comprehensive understanding of key AWS services and their integration.
 - Understand the lifecycle of a dynamic web application and its infrastructure.
  
-### Prerequisites
+#### Prerequisites
 Prepare the development setup as follows:
 
    - Python 3.7 or higher installed.
@@ -44,3 +44,11 @@ Prepare the development setup as follows:
       Default region name [ap-northeast-2]: 
       Default output format [json]: json
      ```
+
+#### Usage
+   1. Run the python script <br />
+      python3 aws_auto_deployment.py. On running the script ask for below inputs: <br />
+      Enter action: create or delete <br />
+      **Type: "create" to automatically create aws resources** <br /> 
+      **Type: "delete" to automatically delete or tear down the resources created in "create"** <br />
+      
