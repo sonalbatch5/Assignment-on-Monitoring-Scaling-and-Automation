@@ -45,6 +45,12 @@ Prepare the development setup as follows:
       Default output format [json]: json
      ```
 
+#### What's in the repository
+   - Main application file: aws_auto_deployment.py
+   - Custom web page to be copied in the EC2 instance: index.html
+   - Startup script to be executed on launch of EC2 instance: startup_script.sh
+   - Lamba function code: lamba_function.zip
+     
 #### Usage
    1. Run the python script <br />
       python3 aws_auto_deployment.py. On running the script ask for below inputs: <br />
