@@ -28,3 +28,15 @@ Develop a system that automatically manages the lifecycle of a web application h
 - Gain a comprehensive understanding of key AWS services and their integration.
 - Understand the lifecycle of a dynamic web application and its infrastructure.
  
+### Prerequisites
+Prepare the development setup as follows:
+
+   - Python 3.7 or higher installed.
+     
+   - Boto3 library installed (pip install boto3).
+     ```bash
+     pip3 install boto3
+     ```
+     
+AWS CLI configured with appropriate IAM permissions.
+An existing SSH key pair in the specified region.
