@@ -37,6 +37,10 @@ Prepare the development setup as follows:
      ```bash
      pip3 install boto3
      ```
-     
-AWS CLI configured with appropriate IAM permissions.
-An existing SSH key pair in the specified region.
+   - Configure AWS permissions via CLI command aws configure
+     ```bash
+      AWS Access Key ID [****************PC6D]: 
+      AWS Secret Access Key [****************mBt6]: 
+      Default region name [ap-northeast-2]: 
+      Default output format [json]: json
+     ```
